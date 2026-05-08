@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <nav class="fixed top-0 w-full bg-white border-b z-50 p-4">
+      <div class="max-w-5xl mx-auto flex justify-between items-center">
+        <h1 class="font-bold text-xl text-blue-600 tracking-tight">
+          PORTFOLIO
+        </h1>
+        <div
+          class="hidden md:flex gap-6 font-medium text-sm text-gray-600 uppercase"
+        >
+          <a href="#profile" class="hover:text-blue-600">Profile</a>
+          <a href="#skills" class="hover:text-blue-600">Skills</a>
+          <a href="#projects" class="hover:text-blue-600">Projects</a>
+          <a href="#contact" class="hover:text-blue-600 font-bold text-blue-600"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 pt-24 pb-12 space-y-20">
+      <section
+        id="profile"
+        class="text-center md:text-left md:flex items-center gap-8"
+      >
+        <div
+          class="w-24 h-24 bg-blue-100 rounded-full mx-auto md:mx-0 mb-4 flex items-center justify-center text-3xl"
+        >
+          👤
+        </div>
+        <div>
+          <h2 class="text-4xl font-black mb-2">Hello, I'm Alex</h2>
+          <p class="text-lg text-gray-500">
+            I am a web developer specializing in building clean, responsive
+            interfaces with HTML5 and CSS3.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h3
+          class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6"
+        >
+          Technical Skills
+        </h3>
+        <div class="flex flex-wrap gap-2">
+          <span
+            class="bg-white border px-4 py-2 rounded-lg text-sm font-semibold shadow-sm"
+            >HTML5</span
+          >
+          <span
+            class="bg-white border px-4 py-2 rounded-lg text-sm font-semibold shadow-sm"
+            >CSS3</span
+          >
+          <span
+            class="bg-white border px-4 py-2 rounded-lg text-sm font-semibold shadow-sm"
+            >Tailwind CSS</span
+          >
+          <span
+            class="bg-white border px-4 py-2 rounded-lg text-sm font-semibold shadow-sm"
+            >Responsive Design</span
+          >
+        </div>
+      </section>
+
+      <section id="projects" class="space-y-6">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-gray-400">
+          Selected Work
+        </h3>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div
+            class="bg-white border p-6 rounded-2xl hover:border-blue-500 transition-colors"
+          >
+            <h4 class="font-bold text-lg mb-1">E-Commerce Landing Page</h4>
+            <p class="text-sm text-gray-500 mb-4">
+              A fully responsive store frontend designed for mobile users.
+            </p>
+            <a
+              href="#"
+              class="text-blue-600 text-xs font-bold uppercase tracking-tighter hover:underline"
+              >View Project &rarr;</a
+            >
+          </div>
+          <div class="bg-white border p-6 rounded-2xl border-dashed">
+            <h4 class="font-bold text-lg mb-1">Junior Web Developer</h4>
+            <p class="text-sm text-gray-600 font-medium">
+              Freelance | 2023 - Present
+            </p>
+            <p class="text-sm text-gray-500 mt-2">
+              Specializing in converting Figma designs into clean HTML/CSS code.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="bg-blue-600 rounded-3xl p-10 text-center text-white space-y-4"
+      >
+        <h2 class="text-2xl font-bold">Have a project in mind?</h2>
+        <p class="text-blue-100">
+          Feel free to reach out for collaborations or inquiries.
+        </p>
+        <a
+          href="mailto:hello@example.com"
+          class="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform"
+          >Get In Touch</a
+        >
+      </section>
+
+      <footer class="text-center text-gray-400 text-xs py-8 border-t">
+        <p>&copy; 2026 Your Name. Built using HTML and Tailwind.</p>
+      </footer>
+    </main>
+  </body>
+</html>
